@@ -23,3 +23,5 @@ class Evento(models.Model):
         return self.data_evento.strftime("%d/%m/%Y")
     
     
+    def get_datahora_evento(self):
+        return self.data_evento.strftime("%Y-%m-%d"+'T'+'%H:%M')

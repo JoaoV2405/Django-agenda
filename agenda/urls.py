@@ -32,5 +32,5 @@ urlpatterns = [
     # path("", views.index)
     
     #redirecionar usuario pra outra url
-    path("", RedirectView.as_view(url="/agenda/"))
+    path("", RedirectView.as_view(url="/agenda/"), name='inicio')
 ]

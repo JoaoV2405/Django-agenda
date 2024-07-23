@@ -1,8 +1,10 @@
-<!-- {% load static%} -->
-
+{% load static%} 
     <meta charset="UTF-8">
-    <title>Agenda </title>
-    <div align="right"> 
-        <a href="/logout">logout</a>
-    </div>
-    <h1>Agenda </h1>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'inicio'%}">Agenda</a>
+        <div align="right"> 
+            <a href="/logout">logout</a>
+        </div>
+        </div>
+    </nav>
